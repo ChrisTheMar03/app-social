@@ -1,0 +1,105 @@
+.registro{
+  width: 100%;
+  height: calc(100vh - 1rem );
+  margin: 0;
+  /* background-color: #333; */
+}
+.registro-container{
+  background-color: white;
+  max-width: 500px;
+  margin: 0 auto;
+  border: 2px solid #dad9d9;
+  border-top: 5px solid #2320f8;
+}
+.registro-titulo{
+  width: 250px;
+  margin: 16px auto;
+  text-align: center;
+}
+.form{
+  /* background-color: lightcoral; */
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.form-nombre,
+.form-apellido,
+.form-nacimiento,
+.form-correo,
+.form-contrasena
+{
+  margin: 16px 0px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #e0e0e0;
+}
+
+.form-nombre > label,
+.form-apellido > label,
+.form-nacimiento > label,
+.form-correo > label,
+.form-contrasena > label{
+  display: flex;
+  align-items: center;
+}
+
+.form-nombre > input,
+.form-apellido > input,
+.form-nacimiento > input,
+.form-correo > input,
+.form-contrasena > input{
+  box-sizing: border-box;
+  flex: 1;
+  padding: 10px 8px;
+  border: 0;
+  outline: 0;
+  font-size: 1rem;
+  border-left: 2px solid #e0e0e0;
+}
+
+.form-sexo,
+.form-imagen,
+.form-btn{
+  margin: 16px 0px;
+  display: flex;
+  align-items: center;
+}
+.form-sexo > input{
+  margin-right: 16px;
+}
+
+.form-btn > button{
+  width: 80%;
+  margin: 0 auto;
+  padding: 12px 0px;
+  background-color: #2320f8;
+  color: white;
+  border: 0;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.form-btn > button:active{
+  transform: scale(0.98);
+}
+
+.icon{
+  font-size: 2.0rem;
+  padding: 0 5px;
+}
+
+.mostrar-error{
+  position: relative;
+  border:1px solid rgba(223, 35, 35, 0.781);
+}
+.mostrar-error::before{
+  content: 'Correo en uso';
+  position: absolute;
+  font-size: 0.5rem;
+  right: 4px;
+  top: 0px;
+  color: red;
+  text-transform: uppercase;
+}

@@ -1,0 +1,21 @@
+.login{
+  width: 100%;
+  height: calc(100vh - 1rem );
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container{
+  background-color: white;
+  min-width: 500px;
+  margin: 0 auto;
+  border: 2px solid #dad9d9;
+  border-top: 5px solid #2320f8;
+  padding: 0px 16px;
+}
+
+.login-container > h1{
+  text-transform: uppercase;
+}

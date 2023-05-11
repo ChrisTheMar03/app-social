@@ -1,0 +1,79 @@
+.perfil{
+
+}
+.perfil-container{
+
+}
+.perfil-header{
+  position: relative;
+  background-image: url("../imgs/fondo-profile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+.perfil-img-content{
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  bottom: -50%;
+  margin-left: 150px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  background-color: lightblue;
+  padding: 1px;
+  overflow: hidden;
+}
+.perfil-img{
+  width: 70%;
+  transform: scale(2);
+}
+.perfil-img:hover{
+  opacity: 0.95;
+}
+.perfil-body{
+  width: 65%;
+  /* background-color: red; */
+  position: relative;
+  margin-left: auto; 
+}
+.perfil-body > .perfil-nombre{
+  margin: 0;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.perfil-body > .perfil-data{
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+.perfil-desc > *{ 
+  font-size: 0.7rem;
+  margin-right: 10px;
+}
+.perfil-sesion{
+
+}
+.perfil-sesion > button{
+    padding: 12px 20px;
+    background-color: rgb(247, 22, 22);
+    color: white;
+    border-radius: 4px;
+    outline: 0;
+    border: 1px solid wheat;
+    margin-top: 16px;
+    position: relative;
+    float: right;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.perfil-sesion > button:hover{
+  opacity: 0.9;
+}
+.perfil-sesion > button:active{
+  transform: scale(0.98);
+}
+
+.perfil-publicaciones{
+  
+}
